@@ -1,0 +1,220 @@
+
+/* Độ phân giải màn hình nhỏ hơn 768px */
+@media only screen and (max-width: 767px) {
+  [class*="col-"] {
+      width: 100%;
+  }
+  .menu {
+    background-color: rgb(63, 184, 231);
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.ul1 {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ul1 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    padding: 10px;
+    transition: 0.4s;
+} 
+.ul1 a:hover {
+    background-color: rgb(11, 97, 131);
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+/* Menu end */
+.footer {
+
+    box-sizing: border-box;
+    color: rgb(11, 97, 131);
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(11, 97, 131);
+    display: block;
+}
+.fa {
+    font-size: 25px;
+}
+.information {
+  margin-left: auto;
+  margin-right: auto;
+}
+.information img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}  
+}
+
+
+/* Độ phân giải màn hình lớn hơn hoặc bằng 768px và nhỏ hơn 992px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+  
+  .menu {
+    background-color: rgb(63, 184, 231);
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.ul1 {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ul1 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  
+    display: block;
+    padding: 10px;
+    transition: 0.4s;
+} 
+.ul1 a:hover {
+    background-color: rgb(11, 97, 131);
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+/* Menu end */
+.footer {
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(63, 184, 231);
+    color: white;
+    text-transform: uppercase;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.footer div {
+    width: 33.33%;
+}
+.fa {
+    font-size: 25px;
+}
+.information {
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.information img {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+}
+
+
+
+@media only screen and (min-width: 992px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+  .menu {
+      background-color: rgb(63, 184, 231);
+      height: 50px;
+      width: 100%;
+      box-sizing: border-box;
+  }
+  .ul1 {
+      display: flex;
+      list-style: none;
+      text-align: center;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .ul1 a{
+      text-decoration: none;
+      text-transform: uppercase;
+      color: white;
+
+      display: block;
+      padding: 10px;
+      transition: 0.4s;
+  } 
+  .ul1 a:hover {
+      background-color: rgb(11, 97, 131);
+      padding-top: 5px;
+      padding-bottom: 15px;
+  }
+  /* Menu end */
+  .footer {
+      display: flex;
+      box-sizing: border-box;
+      background-color: rgb(63, 184, 231);
+      color: white;
+      text-transform: uppercase;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .footer a {
+      text-decoration: none;
+      color: white;
+      display: block;
+  }
+  .footer div {
+      width: 33.33%;
+  }
+  .fa {
+      font-size: 25px;
+  }
+
+.information {
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.information img {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+}
